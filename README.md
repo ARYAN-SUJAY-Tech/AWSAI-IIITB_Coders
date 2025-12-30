@@ -1,67 +1,62 @@
 # AWSAI-IIITB_Coders
 
-AWSAI – AI Misconfiguration Assistant
+# AWSAI - AI Misconfiguration Assistant
 
-AWSAI is an intelligent system designed to help users understand, diagnose, and resolve AWS configuration issues using AI-powered analysis and structured explanations.
+AWSAI is a system designed to help users understand, diagnose, and resolve AWS configuration issues using intelligent analysis and structured explanations.
 
-Overview
+---
 
-Cloud configuration errors are one of the most common causes of service outages and security vulnerabilities.
-This project provides an intelligent assistant that analyzes AWS error messages, identifies root causes, and suggests corrective actions in a clear and structured manner.
+## Overview
 
-Key Features
+Cloud configuration errors are among the most common causes of system failures and security vulnerabilities. This project provides an intelligent assistant that analyzes AWS error messages, identifies root causes, and recommends corrective actions in a clear and structured manner.
 
-Intelligent classification of AWS errors
+---
 
-Rule-based issue identification
+## Features
 
-AI-generated explanations and recommendations
+- Intelligent classification of AWS errors
+- Rule-based issue identification
+- AI-generated explanations and recommendations
+- Clean and intuitive user interface
+- User authentication and history tracking
 
-Clean and intuitive user interface
+---
 
-User authentication and session handling
+## Technology Stack
 
-History of previously analyzed issues
+- Frontend: Streamlit  
+- Backend: Python
+- AI Engine: OpenAI API  
+- Database: SQLite  
 
-System Workflow
+---
 
-User provides an AWS error or configuration issue
+## Project Structure
 
-The system classifies the issue type
-
-A structured prompt is generated
-
-An AI model analyzes the issue
-
-A clear explanation and fix are presented
-
-Technology Stack
-
-Frontend: Streamlit
-
-Backend: Python
-
-AI Engine: OpenAI API
-
-Database: SQLite
-
-Project Structure
 aws-ai-misconfig/
-│
+
 ├── app.py
+
 ├── database.py
+
 ├── ai_clients.py
+
 ├── prompts.py
+
 ├── requirements.txt
 
-Security Considerations
 
-Sensitive information is never hard-coded
+---
 
-API keys are stored securely using environment variables
+## Security
 
-User credentials are securely handled in the database
+- Sensitive data is never hard-coded
+- API keys are stored securely using environment variables
+- User credentials are stored securely in the database
 
-Summary
+---
 
-This project demonstrates how AI can simplify cloud troubleshooting by combining automation, intelligent reasoning, and a clean user interface. It serves as a practical solution for developers dealing with AWS configuration challenges.
+## Summary
+
+This project demonstrates how AI can simplify cloud troubleshooting by combining automation, intelligent reasoning, and a clean user interface. It serves as a practical solution for developers dealing with AWS configuration challenges
+
